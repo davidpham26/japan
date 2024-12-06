@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#define MAX 100
+
 int inputArray(int arr[]) {
     int n;
     printf("Nhap so phan tu cua mang: ");
@@ -11,14 +9,7 @@ int inputArray(int arr[]) {
         scanf("%d", &arr[i]);
     }
     return n;
-}
 
-void printArray(int arr[], int n) {
-    printf("Mang hien tai: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
 }
 
 int countPerfectNumbers(int arr[], int n) {
